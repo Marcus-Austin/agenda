@@ -16,6 +16,7 @@ import jakarta.persistence.Table;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 @Table(name = "tb_agendamento")
 public class Agendamento {
     
